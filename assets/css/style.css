@@ -127,12 +127,12 @@ fieldset {
 }
 
 .section {
-    padding: 150px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
 }
 
 .section-title {
     color: #000;
-    margin-bottom: 67px;
+    margin-bottom: 50px;
 }
 
 .title-icon{
@@ -648,12 +648,34 @@ a.typewrite {
 
 /* ---- Personal details with skills ---- */
 
-.personal-row{
+.personal-row {
     margin-top: 88px;
+    border: 1px solid #999;
+    padding: 22px;
 }
 
-.personal{
-    border: 1px solid #999;    
+.personal-row .title-icon {
+    margin-top: 21px;
+}
+
+.personal-row .section-title {
+    color: #000;
+    margin-bottom: 50px;
+    margin-top: -72px;
+    position: absolute;
+    /* z-index: 1000; */
+    /* display: inline-block; */
+    /* top: 31px; */
+}
+
+.personal-row .section-title h2 {
+    background: #fff;
+    width: auto;
+}
+
+.personal-row .personal-section-col-md {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .personal h4{
@@ -672,6 +694,36 @@ a.typewrite {
     padding: 47px 64px 47px 64px
 }
 
+.personal .icon {
+    text-align: center;
+}
+
+.personal .icon .fa {
+    font-size: 48px;
+    background-color: #fff;
+    /* border: 2px solid #1e1e1e; */
+    /* border-radius: 26px; */
+    /* height: 47px; */
+    /* width: 47px; */
+    /* text-align: center; */
+    padding-top: 8px;
+    padding-bottom: 12px;
+    /* float: left; */
+}
+
+.personal .personal-text {
+    /* padding-top: 5px; */
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Josefin Slab', serif;
+    /* padding-left: 70px; */
+    color: #000;
+    text-align: center;
+}
+
+.personal .personal-col-md {
+    text-align: center;
+}
 
 .personal ul li{
     list-style: none;
@@ -680,7 +732,6 @@ a.typewrite {
     color: #5c5c5c;
     padding-bottom: 36px;
 }
-
 
 .personal ul li:last-child{
     list-style: none;
@@ -707,10 +758,12 @@ a.typewrite {
 }
 
 .skill-row{
-    width: 100%;
-    margin-bottom: 42px;  
+    width: 100%; 
 }
 
+.skill-row .col-md-4 {
+    margin-bottom: 42px;
+}
 
 .skill-row:last-child{
     margin-top: 0px;
@@ -719,7 +772,6 @@ a.typewrite {
 .skill{
     width: 100%;   
 }
-
 
 .skill h4{
     width: 100%; 
@@ -734,7 +786,8 @@ a.typewrite {
 .skill-box{
     border: 1px solid #999;
     padding: 15px 0px 15px 0px; 
-      
+	height: 175px;
+    overflow: hidden;
 }
 
 .skill-box:last-child{
@@ -1303,7 +1356,7 @@ textarea.form-control {
        * element that contains the map. */
       #map {
         height: 481px;
-        margin-top: 150px;
+        margin-top: 50px;
       }
 
       /* Optional: Makes the sample page fill the window. */
