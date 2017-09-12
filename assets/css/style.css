@@ -573,6 +573,10 @@ a.typewrite {
     display: inline-block;
 }
 
+.about-me-content {
+	padding-top:15px;
+}
+
 .social-links li a i {
    background-color: #fff;
    border: 2px solid #1e1e1e;
